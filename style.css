@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: times;
+}
+a{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li{
+    padding: 0 .2rem;
+}
+/* end of nav */
+
+/* home section */
+.home{
+    /* width: 100%; */
+    background-image: url(https://images.unsplash.com/photo-1562875222-497b652680d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnaHQlMjB3ZWRkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    padding: 10rem;
+    justify-content: space-between;
+}
+.home .place{
+    
+}
+.home .place p{
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;b
+}
+.home .place h1{
+    font-size: 7rem;
+}
+.home .place button{
+    padding: 5px;
+    border: ;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.home .place button:hover{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.home form{
+    background-color: rgba(0, 0, 0, 1);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 3rem 3rem;
+    width: 100%;
+    color: white;
+    margin: 2rem;
+    
+}
+.home form h1{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;   
+}
+.home form button{
+    background-color: gold;
+    padding: 0.8rem;
+    border: none;
+}
+.home form input{
+    background-color: gray;
+    margin-bottom: 1rem;
+    padding: .8rem;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.home form input::placeholder{
+color: white;
+}
+.home form select{
+    background-color: gray;
+    color: white;
+    padding: 0.8rem;
+    width: 100%;
+}
+/* end of home section */
+
+/* journey section */
+.journey{
+    width: 100%;
+}
+.journey .astrip{
+    text-align: center;
+    /* width: 50%; */
+    padding: 2rem 15rem;
+}
+.journey .astrip h4{
+    font-style: italic;
+}
+.journey .astrip h1{
+    font-weight: 900;
+}
+.journey .astrip p{
+    padding-bottom: 1rem;
+}
+.journey .astrip button{
+    padding: .5rem 3rem;
+    background-color: white;
+}
+.journey .group{
+    width: 100%;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.journey .group .orlando{
+    width: 20%;
+    background-image: url(wedding.avif);
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.journey .group .orlando .div2{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.journey .group .orlando .div1{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5%;
+    width: 20%;
+    box-shadow: 2px 2px 4px black;
+    font-size: 12px;
+    font-weight: 800;
+    float: right;
+}
+.journey .group .amazon{
+    color: white;
+    width: 20%;
+    background-image: url(wedding.avif);
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.journey .group .amazon span{
+    color: black;
+    background-color: white;
+}
+.journey .group .arizona{
+    color: blue;
+    width: 20%;
+    background-image: url(wedding.avif);
+    margin-right: 5rem;
+    padding: 1rem;
+}
+.journey .group .arizona span{
+    color: black;
+    background-color: white;
+}
+.journey .dot{
+    color: red;
+    text-align: center;
+    font-size: 900%;
+}
