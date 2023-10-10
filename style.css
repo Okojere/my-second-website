@@ -35,20 +35,16 @@ nav ul li{
     padding: 10rem;
     justify-content: space-between;
 }
-.home .place{
-    
-}
 .home .place p{
     font-style: italic;
     font-size: 1.5rem;
-    padding-bottom: 1rem;b
+    padding-bottom: 1rem;
 }
 .home .place h1{
     font-size: 7rem;
 }
 .home .place button{
     padding: 5px;
-    border: ;
     background-color: transparent;
     color: white;
     border-color: white;
